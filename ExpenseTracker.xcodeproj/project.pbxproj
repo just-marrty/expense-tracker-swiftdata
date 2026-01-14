@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5B191BF42F1512D700D4836E /* OutcomeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutcomeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B191BF42F1512D700D4836E /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5B191BF62F1512D700D4836E /* OutcomeTracker */ = {
+		5B191BF62F1512D700D4836E /* ExpenseTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OutcomeTracker;
+			path = ExpenseTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		5B191BEB2F1512D700D4836E = {
 			isa = PBXGroup;
 			children = (
-				5B191BF62F1512D700D4836E /* OutcomeTracker */,
+				5B191BF62F1512D700D4836E /* ExpenseTracker */,
 				5B191BF52F1512D700D4836E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		5B191BF52F1512D700D4836E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B191BF42F1512D700D4836E /* OutcomeTracker.app */,
+				5B191BF42F1512D700D4836E /* ExpenseTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B191BF32F1512D700D4836E /* OutcomeTracker */ = {
+		5B191BF32F1512D700D4836E /* ExpenseTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B191BFF2F1512D800D4836E /* Build configuration list for PBXNativeTarget "OutcomeTracker" */;
+			buildConfigurationList = 5B191BFF2F1512D800D4836E /* Build configuration list for PBXNativeTarget "ExpenseTracker" */;
 			buildPhases = (
 				5B191BF02F1512D700D4836E /* Sources */,
 				5B191BF12F1512D700D4836E /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5B191BF62F1512D700D4836E /* OutcomeTracker */,
+				5B191BF62F1512D700D4836E /* ExpenseTracker */,
 			);
-			name = OutcomeTracker;
+			name = ExpenseTracker;
 			packageProductDependencies = (
 			);
 			productName = OutcomeTracker;
-			productReference = 5B191BF42F1512D700D4836E /* OutcomeTracker.app */;
+			productReference = 5B191BF42F1512D700D4836E /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B191BEF2F1512D700D4836E /* Build configuration list for PBXProject "OutcomeTracker" */;
+			buildConfigurationList = 5B191BEF2F1512D700D4836E /* Build configuration list for PBXProject "ExpenseTracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B191BF32F1512D700D4836E /* OutcomeTracker */,
+				5B191BF32F1512D700D4836E /* ExpenseTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B191BEF2F1512D700D4836E /* Build configuration list for PBXProject "OutcomeTracker" */ = {
+		5B191BEF2F1512D700D4836E /* Build configuration list for PBXProject "ExpenseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B191BFD2F1512D800D4836E /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B191BFF2F1512D800D4836E /* Build configuration list for PBXNativeTarget "OutcomeTracker" */ = {
+		5B191BFF2F1512D800D4836E /* Build configuration list for PBXNativeTarget "ExpenseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B191C002F1512D800D4836E /* Debug */,

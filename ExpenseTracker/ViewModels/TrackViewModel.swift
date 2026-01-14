@@ -1,6 +1,6 @@
 //
 //  TrackViewModel.swift
-//  OutcomeTracker
+//  ExpenseTracker
 //
 //  Created by Martin Hrbáček on 13.01.2026.
 //

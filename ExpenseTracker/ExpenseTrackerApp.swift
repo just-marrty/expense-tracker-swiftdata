@@ -1,6 +1,6 @@
 //
 //  OutcomeTrackerApp.swift
-//  OutcomeTracker
+//  ExpenseTracker
 //
 //  Created by Martin Hrbáček on 12.01.2026.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct OutcomeTrackerApp: App {
+struct ExpenseTrackerApp: App {
     var body: some Scene {
         WindowGroup {
             TrackMainView()

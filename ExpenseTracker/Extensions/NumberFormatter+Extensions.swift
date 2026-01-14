@@ -1,6 +1,6 @@
 //
 //  NumberFormatter+Extensions.swift
-//  OutcomeTracker
+//  ExpenseTracker
 //
 //  Created by Martin Hrbáček on 12.01.2026.
 //
