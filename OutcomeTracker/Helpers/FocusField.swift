@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum FocusField {
+    case string
+    case decimal
+}

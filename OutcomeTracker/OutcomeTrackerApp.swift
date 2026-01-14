@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct OutcomeTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TrackMainView()
         }
+        .modelContainer(for: Track.self, inMemory: false)
     }
 }
