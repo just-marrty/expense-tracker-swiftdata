@@ -46,6 +46,7 @@ struct TrackUpdateView: View {
             Section {
                 TextField("Type your amount", text: $trackVM.amountString)
                     .focused($focusField, equals: .decimal)
+                    .keyboardType(.decimalPad)
                     .onChange(of: trackVM.amountString) { oldValue, newValue in
                         if trackVM.isLoadingAmountValues {
                             trackVM.amountString = trackVM.decimalSeparator(newValue: newValue, oldValue: oldValue)
