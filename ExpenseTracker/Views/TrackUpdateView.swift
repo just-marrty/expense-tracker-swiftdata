@@ -48,7 +48,7 @@ struct TrackUpdateView: View {
                     .focused($focusField, equals: .decimal)
                     .keyboardType(.decimalPad)
                     .onChange(of: trackVM.amountString) { oldValue, newValue in
-                        if trackVM.isLoadingAmountValues {
+                        if !trackVM.isLoadingAmountValues {
                             trackVM.amountString = trackVM.decimalSeparator(newValue: newValue, oldValue: oldValue)
                         }
                     }
